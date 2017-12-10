@@ -19,9 +19,19 @@ self.exploreAfterGoalReached= False // change it to True
 
 to change algorithm change do changes in 
 robot.py:- 
+
+
+line 19  :-          self.exploreAfterGoalReached= False # for maze exploration full/partial 
+
+
+line 23 to 25 :-    to change maze algorithm 
+
  #self.algoObj=  AlgoPackage('floodfill' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached) 
+
  #self.algoObj=  AlgoPackage('dfs' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached ) 
+
  #self.algoObj=  AlgoPackage('bfs' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached) 
+
 
 
 After code ends check:-
