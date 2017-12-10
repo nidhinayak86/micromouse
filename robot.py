@@ -20,9 +20,9 @@ class Robot(object):
             # check for goal entered
         self.goal_bounds = [int(maze_dim/2) - 1, int(maze_dim/2)]
         #self.algoObj=  AlgoPackage('random' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached)
-        #self.algoObj=  AlgoPackage('floodfill' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached)
+        self.algoObj=  AlgoPackage('floodfill' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached)
         #self.algoObj=  AlgoPackage('dfs' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached )
-        self.algoObj=  AlgoPackage('bfs' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached)
+        #self.algoObj=  AlgoPackage('bfs' ,self.location, self.heading,self.goal_bounds, self.maze_dim ,self.exploreAfterGoalReached)
 
 
 
